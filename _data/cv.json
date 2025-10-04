@@ -1,0 +1,196 @@
+{
+  "basics": {
+    "name": "Andualem Welabo",
+    "location": "Trento, Italy",
+    "email": "andualemwelabo.tulu@unitn.it",
+    "phone": "+39 324 842 7482",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "linkedin.com/in/andualem-tulu-105a7213b"
+      }
+    ],
+    "summary": "I am a PhD candidate at the University of Trento, Italy with a strong research background in computer vision and deep learning. Completed an internship at BLM Group..."
+  },
+  "education": [
+    {
+      "institution": "University of Trento",
+      "area": "Industrial Innovation",
+      "studyType": "PhD",
+      "startDate": "",
+      "endDate": "2026",
+      "gpa": "Coursework: Computer Vision and Domain Adaptation for Industrial Innovation",
+      "location": "Trento, Italy"
+    },
+    {
+      "institution": "Addis Ababa Science and Technology University",
+      "area": "Mechatronics Engineering",
+      "studyType": "Masters",
+      "startDate": "",
+      "endDate": "2020",
+      "gpa": "GPA:3.58/4.0; Thesis: Trajectory Tracking Control of UR5 Robot Manipulator...",
+      "location": " Addis Ababa, Ethiopia"
+    },
+    {
+      "institution": "Jimma University",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelors",
+      "startDate": "",
+      "endDate": "2016",
+      "gpa": "GPA: 3.45/4.0",
+      "location": "Jimma, Ethiopia"
+    }
+  ],
+  "work": [
+    {
+      "company": "Mizan, Ethiopia",
+      "position": "Mizan-Tepi University",
+      "startDate": "Jul 2021",
+      "endDate": "Course lecture planning, teaching, labs, advising theses",
+      "summary": "https://mtu.edu.et/",
+      "location": "Feb 2017",
+      "url": ""
+    },
+    {
+      "company": "Addis Ababa, Ethiopia",
+      "position": "FARIS Technology",
+      "startDate": "Feb 2022",
+      "endDate": "Simulated UAV/robotics, led AI projects, delivered Python training",
+      "summary": "https://faristechnologies.com/",
+      "location": "Jan 2021",
+      "url": ""
+    }
+  ],
+  "internships": [
+    {
+      "company": "Levico, Italy",
+      "position": "BLM Group",
+      "startDate": "2024",
+      "endDate": "Created synthetic datasets, developed synthetic-to-real domain adaptation, CV based LT-8 Laser machine automation",
+      "summary": "https://www.blmgroup.com/",
+      "location": "2024",
+      "url": ""
+    },
+    {
+      "company": "Montreal, Canada",
+      "position": "ÉTS (LIVIA Lab)",
+      "startDate": "2025",
+      "endDate": "Developed online test-time adaptation methods, benchmark evaluation",
+      "summary": "https://www.etsmtl.ca/",
+      "location": "2025",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, MATLAB, C++",
+      "keywords": "Programming Languages"
+    },
+    {
+      "name": "Linear algebra, calculus, probability, statistics, optimization",
+      "keywords": "Mathematics and Statistics"
+    },
+    {
+      "name": "CNNs, RNNs, Vision Transformers, Diffusion Models, VLMs",
+      "keywords": "ML/DL Expertise"
+    },
+    {
+      "name": "PyTorch, TensorFlow, OpenCV, scikit-learn, scikit-image, MATLAB",
+      "keywords": "CV Libraries"
+    },
+    {
+      "name": "Depth estimation, stereo vision, 3D reconstruction, camera calibration",
+      "keywords": "3D Vision"
+    },
+    {
+      "name": "-",
+      "keywords": "-"
+    },
+    {
+      "name": "Git, Linux, Docker, tmux, VSCode, Jupyter, LaTeX",
+      "keywords": "Tools"
+    },
+    {
+      "name": "Problem Solving, Data Analysis, Organization, Collaboration, Communication, Curiosity, Adaptability",
+      "keywords": "Soft Skills"
+    }
+  ],
+  "publications": [
+    {
+      "name": "“WCT-Enhanced Instance Normalization for Unsupervised Domain Adaptation in Object Detection”",
+      "publisher": "IEEE AVSS",
+      "releaseDate": "2025",
+      "website": "DOI: 10.1109/AVSS65446.2025.11149950",
+      "summary": "Keywords: Training; Visualization; Image Color Analysis; Semantic Segmentation; Object Detection; Transforms; Benchmark Testing; Video Surveillance; Labeling; Monitoring"
+    },
+    {
+      "name": "“RAW-Mix: Region-Aware Mixing for Unsupervised Domain Adaptation in Object Detection”",
+      "publisher": "ICIAP",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Accepted, camera-ready version submitted"
+    },
+    {
+      "name": "“Trajectory Tracking Control of UR5 Robot Manipulator Using Fuzzy Gain Scheduling Terminal Sliding Mode Controller”",
+      "publisher": "Journal of Mechatronics and Robotics",
+      "releaseDate": "2020",
+      "website": "",
+      "summary": "Volume 4, Issue 1, pp. 113–135"
+    },
+    {
+      "name": "“Online Test-Time Adaptation in Domain Generalization”",
+      "publisher": "-",
+      "releaseDate": "-",
+      "website": "",
+      "summary": "Under revision"
+    }
+  ],
+  "presentations": [],
+  "teaching": [],
+  "certifications": [
+    {
+      "name": "PNRR & Erasmus Scholarships",
+      "issuer": "-",
+      "dateStart": "",
+      "dateEnd": "",
+      "description": "-"
+    },
+    {
+      "name": "Grant Project Award, Ethiopian Space Science and Geospatial Institute (SSGI)",
+      "issuer": "-",
+      "dateStart": "2021",
+      "dateEnd": "2022",
+      "description": "-"
+    }
+  ],
+  "references": [
+    {
+      "name": "Prof. Nicola Conci",
+      "institution": "University of Trento",
+      "location": "Trento, Italy",
+      "summary": "Associate Professor, Department of Information Engineering and Computer Science; Email: nicola.conci@unitn.it",
+      "email": ""
+    },
+    {
+      "name": "Giovanni Dalfollo",
+      "institution": "BLM Group",
+      "location": "Levico Terme, Italy",
+      "summary": "Computer Vision Project Manager; Email: giovanni.dalfollo@blmgroup.it",
+      "email": ""
+    },
+    {
+      "name": "Prof. Marco Pedersoli",
+      "institution": "ÉTS, LIVIA Lab",
+      "location": "Montreal, Canada",
+      "summary": "Associate Professor, Department of Systems Engineering; Email: Marco.Pedersoli@etsmtl.ca",
+      "email": ""
+    },
+    {
+      "name": "Dr. Asrat Mulatu",
+      "institution": "Addis Ababa Science and Technology University",
+      "location": "Addis Ababa, Ethiopia",
+      "summary": "Assistant Professor and ICT Director; Email: asrat.mulatu@aastu.edu.et",
+      "email": ""
+    }
+  ]
+}

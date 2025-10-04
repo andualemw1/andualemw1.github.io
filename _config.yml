@@ -1,0 +1,40 @@
+# =========================
+# Basic Site Settings
+# =========================
+title: "Andualem Welabo"
+description: "PhD Candidate at University of Trento, Italy"
+url: "https://andualemw1.github.io"   # Your GitHub Pages URL
+baseurl: ""                            # Leave blank for user.github.io
+theme: minima
+
+# =========================
+# Author / Sidebar Info
+# =========================
+author:
+  name: "Andualem Welabo"
+  bio: "PhD Candidate in computer vision, VLM, synthetic-to-real adaptation, and industrial innovation."
+  email: "andualemwelabo.tulu@unitn.it"
+  github: "https://github.com/andualemw1"
+  linkedin: "https://www.linkedin.com/in/andualem-tulu-105a7213b/"
+  orcid: "https://orcid.org/0009-0002-6586-6414"
+  googlescholar: "https://scholar.google.ca/citations?user=3IPS_swAAAAJ&hl=en"
+
+# =========================
+# Include and Collections
+# =========================
+include:
+  - _pages
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+# =========================
+# Markdown and Plugins
+# =========================
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
