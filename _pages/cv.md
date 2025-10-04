@@ -6,8 +6,6 @@ author_profile: true
 ---
 
 
-{% include base_path %}
-
 Education
 ======
 * Ph.D in Industrial Innovation, University of Trento, Trento, Italy, Expected 2026  
