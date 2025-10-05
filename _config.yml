@@ -1,18 +1,18 @@
 # =========================
 # Basic Site Settings
 # =========================
-title: "Andualem Welabo"
-description: "PhD Candidate at University of Trento, Italy"
-url: "https://andualemw1.github.io"   # Your GitHub Pages URL
-baseurl: ""                            # Leave blank for user.github.io
-theme: minima
+title: "Andualem Welabo Tulu"
+description: "PhD Candidate at University of Trento, Italy."
+url: "https://andualemw1.github.io"
+baseurl: ""
 
 # =========================
 # Author / Sidebar Info
 # =========================
+# This data is used by the sidebar.html file
 author:
-  name: "Andualem Welabo"
-  bio: "PhD Candidate in computer vision, VLM, synthetic-to-real adaptation, and industrial innovation."
+  name: "Andualem Welabo Tulu"
+  bio: "PhD Candidate in Computer Vision"
   email: "andualemwelabo.tulu@unitn.it"
   github: "https://github.com/andualemw1"
   linkedin: "https://www.linkedin.com/in/andualem-tulu-105a7213b/"
@@ -20,15 +20,14 @@ author:
   googlescholar: "https://scholar.google.ca/citations?user=3IPS_swAAAAJ&hl=en"
 
 # =========================
-# Include and Collections
+# Collections
 # =========================
-include:
-  - _pages
-
+# Tells Jekyll to read your _publications and _talks folders
 collections:
   publications:
     output: true
-    permalink: /:collection/:path/
+  talks:
+    output: true
 
 # =========================
 # Markdown and Plugins
@@ -38,3 +37,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# THEME SETTING (DISABLED TO USE YOUR CUSTOM LAYOUT)
+# theme: minima
+

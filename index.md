@@ -1,12 +1,40 @@
 ---
 layout: default
-title: "About Me"
+title: "Home"
+permalink: /
 ---
 
-Hi! I am **Andualem Welabo Tulu**, a PhD Candidate at the **University of Trento**, Italy.  
+<div class="page-container">
 
-My research focuses on **computer vision, visual-language models, and synthetic-to-real adaptation**, with applications in **industrial innovation and automation**.  
+  <header class="page-header">
+    <h1>Welcome to My Page</h1>
+  </header>
 
-I have experience in **industrial and research internships**, generating and annotating **synthetic datasets using Blender and Unity**, and applying **unsupervised domain adaptation for test-time adaptation**.  
+  <section class="page-content">
+    <div class="about-intro">
+        <p>
+            I'm <strong>Andualem Welabo Tulu</strong>, a PhD Candidate at the University of Trento, Italy. 
+        </p>
+        <p>
+            This is my personal and professional space online. Feel free to explore my research, publications, and professional background.
+        </p>
+    </div>
+  </section>
 
-Currently, I am exploring **synthetic-to-real domain adaptation** and advanced techniques in **vision-language models** for industrial and academic applications.  
+  <section class="cta-buttons">
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">
+          <i class="fas fa-user"></i> About Me
+      </a>
+      <a href="{{ '/cv/' | relative_url }}" class="btn btn-primary">
+          <i class="fas fa-file-alt"></i> View CV
+      </a>
+      <a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">
+          <i class="fas fa-book"></i> Publications
+      </a>
+      <a href="{{ '/cv/' | relative_url }}" class="btn btn-secondary">
+          <i class="fas fa-microphone-alt"></i> View Talks
+      </a>
+  </section>
+
+</div>
+

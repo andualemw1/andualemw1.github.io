@@ -1,12 +1,33 @@
-<div>
-  <img src="/images/avator.jpg" alt="{{ site.author.name }}" width="120">
-  <p>{{ site.author.name }}</p>
-  <p>{{ site.author.bio }}</p>
-  <ul>
-    <li><a href="mailto:{{ site.author.email }}">Email</a></li>
-    <li><a href="{{ site.author.github }}">GitHub</a></li>
-    <li><a href="{{ site.author.linkedin }}">LinkedIn</a></li>
-    <li><a href="{{ site.author.orcid }}">ORCID</a></li>
-    <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
-  </ul>
+<div class="sidebar-content">
+
+  <div class="profile">
+    <img src="{{ '/images/avator.jpg' | relative_url }}" alt="Andualem Welabo Tulu" class="profile-picture">
+    <h1 class="name">{{ site.author.name }}</h1>
+    <p class="title">{{ site.author.bio }}</p>
+  </div>
+
+  <nav class="nav-links">
+    <ul>
+      {% assign nav_pages = "About,CV,Publications,Talks" | split: ',' %}
+      {% for nav_item in nav_pages %}
+        {% assign page_url = '/' | append: nav_item | downcase | append: '/' %}
+        {% if nav_item == 'Talks' %}{% assign item_url = '/cv/' %}{% else %}{% assign item_url = page_url %}{% endif %}
+        {% assign is_cv_page = false %}
+        {% if page.url == '/cv/' and (nav_item == 'CV' or nav_item == 'Talks') %}{% assign is_cv_page = true %}{% endif %}
+
+        <li {% if page.url == item_url or is_cv_page %}class="active"{% endif %}>
+          <a href="{{ item_url | relative_url }}">{{ nav_item }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="social-links">
+    <a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="{{ site.author.googlescholar }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+    <a href="{{ site.author.github }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="{{ site.author.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
+
 </div>
+
